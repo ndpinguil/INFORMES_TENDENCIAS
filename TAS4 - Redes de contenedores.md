@@ -114,10 +114,14 @@ VIII. Procedimiento
 Primero se crea los contenedores
 docker run  -d --name nathpostgres -e POSTGRES_PASSWORD=admin -p 5432:5432 postgres
 docker run -d --name nathpgadmin -p 8090:80 -e PGADMIN_DEFAULT_EMAIL=ndpinguil@sudamericano.edu.ec -e PGADMIN_DEFAULT_PASSWORD=admin dpage/pgadmin4
+
+
 ![Screenshot 2024-10-31 114817](https://github.com/user-attachments/assets/b081ff40-0e70-48e5-9e4e-1741eeba5b29)
 
 Luego se crea la red, y ya con la red se los conecta a los contenedores, despues se abre el localhost del pgadmin, se ingresa y se crea la base de datos
 docker network create --attachable rednathaly
+
+
 ![Screenshot 2024-10-31 115147](https://github.com/user-attachments/assets/bc498aa1-9306-4146-9a93-c511d255a8a4)
 ![Screenshot 2024-10-31 121117](https://github.com/user-attachments/assets/35143cc6-ee0c-4e84-b19c-4fb654524a17)
 ![Screenshot 2024-10-31 121459](https://github.com/user-attachments/assets/ba3260f1-9fae-4562-8d69-bab8505cd8e6)
@@ -125,5 +129,7 @@ docker network create --attachable rednathaly
 IX. Resultados esperados:
 
 Se creo los contenedores y la red, se conctaron y dentro del pgadmin se pudo crear el servidor y la base de datos 😊
+
+
 ![Screenshot 2024-10-31 122007](https://github.com/user-attachments/assets/78b4a01c-75c6-4c9f-a7e8-8c00047cd110)
 
