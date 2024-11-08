@@ -1,3 +1,8 @@
+Para empezar se crea un archivo
+
+
+
+
 services:
   postgres:
     image: postgres:latest
