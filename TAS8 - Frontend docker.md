@@ -1,5 +1,7 @@
 I. Título: Frontend Docker
+
 II. Tiempo de duración: 1 hora
+
 III. Fundamentos:
 
 ![image](https://github.com/user-attachments/assets/eb710494-2f85-45cf-944a-d57a4abfa2bc)
