@@ -75,11 +75,12 @@ Generar el archivo .jar usando un contenedor de Maven. Ajusta la ruta del proyec
 docker run -it --rm --name my-maven-project --network db_default -v /ruta/al/proyecto:/usr/src/mymaven -w /usr/src/mymaven maven:3.3-jdk-8 mvn clean package
 Este comando debe mostrar "Build Success" al final.
 
-![alt text](<Screenshot 2024-11-12 125217.png>)
+![Screenshot 2024-11-12 125217](https://github.com/user-attachments/assets/21563776-d090-432a-b982-2765d0b97669)
+
 
 Crear un archivo Dockerfile en la carpeta principal del proyecto:
 
-![alt text](<Screenshot 2024-11-26 203317.png>)
+![Screenshot 2024-11-26 203317](https://github.com/user-attachments/assets/6babdd72-8736-4fe7-8ace-b0255ce289e3)
 
 
 3. Crear imagen con la app de Spring Boot
@@ -87,18 +88,21 @@ Desde la carpeta principal del proyecto (donde está el Dockerfile)
 4. Crear contenedor
 Ejecutar el contenedor con la imagen creada:
 
-![alt text](<Screenshot 2024-11-26 203612.png>)
+![Screenshot 2024-11-26 203612](https://github.com/user-attachments/assets/6e8b36b7-9dbe-4e88-aa80-35f7a74bac5b)
+
 
 Para comprobar que está corriendo, usa:
 
-![alt text](<Screenshot 2024-11-26 203619.png>)
+![Screenshot 2024-11-26 203619](https://github.com/user-attachments/assets/87a14909-2fe1-4416-8fee-3eb0060354ee)
+
 
 5. Probar funcionamiento
 Abrir un navegador y acceder a la URL localhost:8081/users. Debería mostrar un JSON con la información de un usuario.
 
 IX. Resultados esperados:
 
-![alt text](<Screenshot 2024-11-12 125634.png>)
+![Screenshot 2024-11-12 125634](https://github.com/user-attachments/assets/82bd938b-5938-417d-b43f-24fca62805cf)
+
 
 X. Bibliografía
 
